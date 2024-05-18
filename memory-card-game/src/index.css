@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  background-image: url("/src/Images/pokemon-bit-pixel-art.jpg");
+    
+
+}
+
+
+
+.mainContainer{
+  width: 80vw;
+  height: 100vh;
+  padding: 0  5%;
+
+
+  /* border: 5px solid goldenrod; */
+}
+
+.headerContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.scoreBoard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+  gap: 20px;
+}
